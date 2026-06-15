@@ -165,9 +165,7 @@ export default function ProfileSection({
         >
           {username}
         </span>
-        <span className="font-cyber font-bold text-[9px] uppercase tracking-[0.25em] text-[#94a3b8] bg-white/5 border border-white/10 px-2 py-0.5 rounded-md filter backdrop-blur-md">
-          VERIFIED BRAND
-        </span>
+        
       </div>
 
       {/* 3. SOCIAL ICONS QUICK ACCESS */}

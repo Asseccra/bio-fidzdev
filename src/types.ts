@@ -15,7 +15,7 @@ export interface ProfileConfig {
 }
 
 export const DEFAULT_PROFILE: ProfileConfig = {
-  name: 'Hafidh / FidzDev',
+  name: 'FidzDev',
   username: '@fidzdev',
   bio: 'Mahasiswa IT • Web Developer • Digital Creator • Top Up Game',
   avatarUrl: '/pp.jpeg', // Beautiful high quality avatar face
