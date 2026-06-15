@@ -18,8 +18,8 @@ export const DEFAULT_PROFILE: ProfileConfig = {
   name: 'Hafidh / FidzDev',
   username: '@fidzdev',
   bio: 'Mahasiswa IT • Web Developer • Digital Creator • Top Up Game',
-  avatarUrl: 'public/pp.jpeg', // Beautiful high quality avatar face
-  coverUrl: 'public/bg.jpg', // Breathtaking dark cyan fluid glow
+  avatarUrl: 'public/logo.png', // Beautiful high quality avatar face
+  coverUrl: 'public/bg.jpeg', // Breathtaking dark cyan fluid glow
   whatsApp: 'https://wa.me/6285640611921',
   instagram: 'https://instagram.com/haofizzz',
   tikTok: 'https://tiktok.com/@anakbaek376',
