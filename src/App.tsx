@@ -135,7 +135,7 @@ export default function App() {
             {/* Copy Bio Link Button */}
             <button
               onClick={handleCopyLink}
-              className="flex items-center justify-center p-2 rounded-t-none rounded-b-[36px] bg-white/[0.03] border border-white/10 text-slate-300 hover:text-white hover:bg-white/[0.08] hover:border-cyan-400/40 hover:shadow-[0_0_10px_rgba(6,182,212,0.2)] backdrop-blur-md transition-all duration-300 cursor-pointer shadow-md"
+              className="flex items-center justify-center"
               title="Copy Profile URL"
               id="share-button-top"
             >
@@ -224,7 +224,7 @@ export default function App() {
             className={`inline-flex items-center gap-1.5 px-4 py-1.5 text-xs text-slate-400 hover:text-white rounded-full bg-white/5 border border-white/5 hover:border-white/10 cursor-pointer transition-all ${getBorderThemeClass()}`}
           >
             <Share2 className="w-3.5 h-3.5" />
-            <span>Bagikan bio ini ke Bio Sosial Media Anda</span>
+            <span>Bagikan bio ini ke Sosial Media Anda</span>
           </button>
         </div>
 
@@ -232,15 +232,12 @@ export default function App() {
 
       {/* 4. FOOTER CREDITS METADATA */}
       <footer className="w-full py-8 text-center text-xs text-slate-550 border-t border-white/5 bg-[#01030d] z-10 relative">
-        <div className="max-w-xl mx-auto px-4 flex flex-col sm:flex-row items-center sm:justify-between gap-3">
-          <p className="font-mono text-[11px] tracking-wide text-slate-500">
-            &copy; 2026 <span className={getGlowTextClass()}>FidzDev</span>. All Rights Reserved.
-          </p>
-          <p className="text-slate-500">
-            Made with <span className="text-red-500 animate-pulse inline-block">💙</span> by <a href="https://instagram.com/haofizzz" target="_blank" rel="noopener" className="hover:text-white font-semibold transition-colors">Hafidh</a>
-          </p>
-        </div>
-      </footer>
+  <div className="max-w-xl mx-auto px-4 flex flex-col items-center justify-center">
+    <p className="font-mono text-[11px] tracking-wide text-slate-500 text-center">
+      &copy; 2026 <span className={getGlowTextClass()}>FidzDev</span>. All Rights Reserved.
+    </p>
+  </div>
+</footer>
 
       {/* 5. CUSTOM FLOATING TOAST POPUPS (✓ Link Berhasil Disalin) */}
       <AnimatePresence>
