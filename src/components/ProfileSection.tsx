@@ -99,10 +99,6 @@ export default function ProfileSection({
             border: `1.5px solid ${themeStyles.glow}`,
             boxShadow: `0 0 30px ${themeStyles.glow}`,
           }}
-          animate={{
-            scale: [1.1, 1.4, 1.1],
-            opacity: [0.35, 0, 0.35],
-          }}
           transition={{
             duration: 3,
             delay: 1.5,
@@ -112,25 +108,18 @@ export default function ProfileSection({
         />
 
         {/* Main Floating Avatar Container */}
-        <motion.div
-          className="relative rounded-full p-[4px] bg-gradient-to-tr from-white via-white/40 to-transparent"
-          animate={{
-            y: [0, -8, 0],
-          }}
-          transition={{
-            duration: 6,
-            repeat: Infinity,
-            ease: 'easeInOut',
-          }}
-        >
-          <div className={`relative w-[112px] h-[112px] md:w-[136px] md:h-[136px] rounded-full overflow-hidden border-2 ${themeStyles.border} shadow-[0_0_24px_rgba(0,0,0,0.85)]`}>
-            <img
-              src={avatarUrl}
-              alt={name}
-              className="w-full h-full object-cover select-none"
-              referrerPolicy="no-referrer"
-            />
-          </div>
+        <div
+  className="relative rounded-full p-[4px] bg-gradient-to-tr from-white via-white/40 to-transparent"
+>
+  <div className="relative w-[112px] h-[112px] md:w-[136px] md:h-[136px] rounded-full overflow-hidden border-2">
+    <img
+      src={avatarUrl}
+      alt={name}
+      className="w-full h-full object-cover select-none"
+      referrerPolicy="no-referrer"
+    />
+  </div>
+</div>
 
           {/* Glowing Badge inside Avatar circle */}
           <div className="absolute right-1 bottom-1 bg-[#0a0f29] rounded-full p-1 border border-white/20 shadow-lg">
@@ -139,8 +128,7 @@ export default function ProfileSection({
               <span className={`relative inline-flex rounded-full h-3 w-3 ${themeStyles.pulse}`}></span>
             </span>
           </div>
-        </motion.div>
-      </div>
+        </div>
 
       {/* 2. PROFILE DETAILS */}
       <h1 className="text-2xl md:text-3xl font-sora font-extrabold tracking-tight flex items-center justify-center gap-2 select-none mb-1">
