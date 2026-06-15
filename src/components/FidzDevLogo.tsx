@@ -11,7 +11,7 @@ export default function FidzDevLogo({
 }: FidzDevLogoProps) {
   return (
     <motion.img
-  src="/logoku.png"
+  src="/logo.png"
   alt="FidzDev Logo"
   className={`${className} object-contain scale-[1.1] origin-left`}
   animate={{ y: [0, -4, 0] }}
