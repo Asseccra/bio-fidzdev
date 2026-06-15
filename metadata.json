@@ -1,0 +1,6 @@
+{
+  "name": "FidzDev Link in Bio",
+  "description": "Premium gaming-themed cyberpunk Link in Bio website for FidzDev. Features custom top-up links, social integrations, dynamic background, and premium glassmorphic UI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
