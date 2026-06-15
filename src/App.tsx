@@ -193,8 +193,8 @@ export default function App() {
           />
 
           <MenuCard
-            title="Update Terbaru Instagram"
-            description="Follow akun saya"
+            title="Instagram"
+            description="Follow akun instagram saya"
             iconName="Instagram"
             url={profile.instagram}
             themeColor={profile.themeColor}
