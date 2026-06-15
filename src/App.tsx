@@ -135,7 +135,7 @@ export default function App() {
             {/* Copy Bio Link Button */}
             <button
               onClick={handleCopyLink}
-              className="flex items-center justify-center p-2 rounded-xl bg-white/[0.03] border border-white/10 text-slate-300 hover:text-white hover:bg-white/[0.08] hover:border-cyan-400/40 hover:shadow-[0_0_10px_rgba(6,182,212,0.2)] backdrop-blur-md transition-all duration-300 cursor-pointer shadow-md"
+              className="flex items-center justify-center p-2 rounded-t-none rounded-b-[36px] bg-white/[0.03] border border-white/10 text-slate-300 hover:text-white hover:bg-white/[0.08] hover:border-cyan-400/40 hover:shadow-[0_0_10px_rgba(6,182,212,0.2)] backdrop-blur-md transition-all duration-300 cursor-pointer shadow-md"
               title="Copy Profile URL"
               id="share-button-top"
             >
