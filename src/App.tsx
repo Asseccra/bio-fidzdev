@@ -237,7 +237,7 @@ export default function App() {
             &copy; 2026 <span className={getGlowTextClass()}>FidzDev</span>. All Rights Reserved.
           </p>
           <p className="text-slate-500">
-            Made with <span className="text-red-500 animate-pulse inline-block">💙</span> by <a href="https://instagram.com/fidzdev" target="_blank" rel="noopener" className="hover:text-white font-semibold transition-colors">Hafidh</a>
+            Made with <span className="text-red-500 animate-pulse inline-block">💙</span> by <a href="https://instagram.com/haofizzz" target="_blank" rel="noopener" className="hover:text-white font-semibold transition-colors">Hafidh</a>
           </p>
         </div>
       </footer>
