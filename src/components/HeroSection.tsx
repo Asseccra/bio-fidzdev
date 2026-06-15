@@ -7,15 +7,14 @@ interface HeroSectionProps {
 
 export default function HeroSection({ coverUrl }: HeroSectionProps) {
   return (
-    <div className="relative w-full h-[250px] md:h-[350px] overflow-hidden rounded-t-[24px] md:rounded-t-[36px] border-0 outline-none shadow-none">
-      {/* 1. Crisp, High-Quality Cover Image */}
-      <img
-        src={coverUrl}
-        alt="FidzDev Hero Cover"
-        className="w-full h-full object-cover select-none object-[center_32%]"
-        referrerPolicy="no-referrer"
-      />
-
+  <div className="relative w-full h-[250px] md:h-[350px] overflow-hidden rounded-t-[0px]">
+    {/* 1. Crisp, High-Quality Cover Image */}
+    <img
+      src={coverUrl}
+      alt="FidzDev Hero Cover"
+      className="w-full h-full object-cover select-none object-[center_32%]"
+      referrerPolicy="no-referrer"
+    />
       {/* 2. Premium Vignette Effect over Cover Layer */}
       <div 
         className="absolute inset-0 pointer-events-none z-10"
