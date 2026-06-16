@@ -233,7 +233,7 @@ export default function App() {
       {/* 4. FOOTER CREDITS METADATA */}
       <footer className="pb-8 pt-6 text-center">
   <p className="text-xs text-slate-500">
-    © 2026 <span className="text-cyan-400 font-semibold">FidzDev</span>. Code • Design • Create.
+    © 2026 <span className="text-cyan-400 font-semibold">FidzDev</span> Code • Design • Create.
   </p>
 
   <p className="mt-1 text-[10px] tracking-[0.25em] text-slate-600">
