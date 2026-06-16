@@ -231,12 +231,14 @@ export default function App() {
       </main>
 
       {/* 4. FOOTER CREDITS METADATA */}
-      <footer className="w-full py-8 text-center text-xs text-slate-550 border-t border-white/5 bg-[#01030d] z-10 relative">
-  <div className="max-w-xl mx-auto px-4 flex flex-col items-center justify-center">
-    <p className="font-mono text-[11px] tracking-wide text-slate-500 text-center">
-      &copy; 2026 <span className={getGlowTextClass()}>FidzDev</span>. Code • Design • Create.
-    </p>
-  </div>
+      <footer className="pb-8 pt-6 text-center">
+  <p className="text-xs text-slate-500">
+    © 2026 <span className="text-cyan-400 font-semibold">FidzDev</span>. Code • Design • Create.
+  </p>
+
+  <p className="mt-1 text-[10px] tracking-[0.25em] text-slate-600">
+    ALL RIGHTS RESERVED
+  </p>
 </footer>
 
       {/* 5. CUSTOM FLOATING TOAST POPUPS (✓ Link Berhasil Disalin) */}
