@@ -2,13 +2,13 @@ import React from "react";
 import { motion } from "motion/react";
 
 export default function FidzDevLogo({
-  className = "h-10 md:h-11w-[110px] md:w-[140px]",
+  className = "h-10 md:h-11w-[180px] md:w-[300px]",
 }) {
   return (
     <motion.img
       src="/logo.png"
       alt="FidzDev Logo"
-      className={`${className} object-contain scale-[1.1] origin-left`}
+      className={`${className} object-contain object-left scale-[1.1] origin-left`}
       animate={{ y: [0, -4, 0] }}
       transition={{
         duration: 3.5,
