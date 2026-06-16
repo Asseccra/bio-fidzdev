@@ -124,7 +124,7 @@ export default function App() {
         <div className="max-w-lg mx-auto flex items-center justify-between h-14">
           {/* Logo Brand Title with Custom Glow and Slanted Icon */}
           <div className="flex items-center gap-2.5 select-none hover:scale-105 transition-all duration-300 cursor-pointer">
-            <FidzDevLogo className="h-8 md:h-9 w-[85px] md:w-[120px]" />
+            <FidzDevLogo className="h-8 md:h-9 w-[85px] md:w-[260px]" />
           </div>
 
           {/* Action buttons (MUSIC on left, SHARE on right) */}
