@@ -234,7 +234,7 @@ export default function App() {
       <footer className="w-full py-8 text-center text-xs text-slate-550 border-t border-white/5 bg-[#01030d] z-10 relative">
   <div className="max-w-xl mx-auto px-4 flex flex-col items-center justify-center">
     <p className="font-mono text-[11px] tracking-wide text-slate-500 text-center">
-      &copy; 2026 <span className={getGlowTextClass()}>FidzDev</span>. All Rights Reserved.
+      &copy; 2026 <span className={getGlowTextClass()}>FidzDev</span>. Code • Design • Create.
     </p>
   </div>
 </footer>
